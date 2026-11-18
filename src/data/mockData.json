@@ -1,0 +1,27 @@
+{
+  "patients": [
+    {"id":"P-1001","name":"Ayesha Khan","age":28,"gender":"Female","phone":"0300-1234567","email":"ayesha@example.com","condition":"Migraine","status":"Active"},
+    {"id":"P-1002","name":"Hamza Ali","age":42,"gender":"Male","phone":"0301-2345678","email":"hamza@example.com","condition":"Blood pressure","status":"Active"},
+    {"id":"P-1003","name":"Sara Ahmed","age":35,"gender":"Female","phone":"0302-3456789","email":"sara@example.com","condition":"Diabetes","status":"Active"},
+    {"id":"P-1004","name":"Usman Raza","age":51,"gender":"Male","phone":"0303-4567890","email":"usman@example.com","condition":"Back pain","status":"Inactive"},
+    {"id":"P-1005","name":"Mariam Noor","age":23,"gender":"Female","phone":"0304-5678901","email":"mariam@example.com","condition":"Flu","status":"Active"},
+    {"id":"P-1006","name":"Bilal Shah","age":31,"gender":"Male","phone":"0305-6789012","email":"bilal@example.com","condition":"Allergy","status":"Active"}
+  ],
+  "doctors": [
+    {"id":"D-201","name":"Dr. Ahmed Malik","specialty":"Cardiology","experience":"12 years","phone":"0300-1112233","available":true},
+    {"id":"D-202","name":"Dr. Sana Iqbal","specialty":"Neurology","experience":"8 years","phone":"0301-2223344","available":true},
+    {"id":"D-203","name":"Dr. Usman Tariq","specialty":"Orthopedics","experience":"10 years","phone":"0302-3334455","available":false},
+    {"id":"D-204","name":"Dr. Hira Aslam","specialty":"Dermatology","experience":"6 years","phone":"0303-4445566","available":true}
+  ],
+  "appointments": [
+    {"id":"A-301","patient":"Ayesha Khan","doctor":"Dr. Sana Iqbal","time":"09:30","reason":"Headache","status":"Confirmed"},
+    {"id":"A-302","patient":"Hamza Ali","doctor":"Dr. Ahmed Malik","time":"11:00","reason":"Routine checkup","status":"Pending"},
+    {"id":"A-303","patient":"Sara Ahmed","doctor":"Dr. Ahmed Malik","time":"12:30","reason":"Follow-up","status":"Completed"},
+    {"id":"A-304","patient":"Mariam Noor","doctor":"Dr. Hira Aslam","time":"14:00","reason":"Skin consultation","status":"Confirmed"}
+  ],
+  "invoices": [
+    {"id":"INV-401","patient":"Ayesha Khan","date":"2026-11-12","service":"Neurology consultation","amount":3500,"status":"Paid"},
+    {"id":"INV-402","patient":"Hamza Ali","date":"2026-11-12","service":"Cardiology consultation","amount":5000,"status":"Unpaid"},
+    {"id":"INV-403","patient":"Sara Ahmed","date":"2026-11-12","service":"Follow-up visit","amount":2000,"status":"Paid"}
+  ]
+}
