@@ -65,3 +65,10 @@ For accessibility, run Lighthouse in Chrome DevTools on the production preview a
 - `src/lib/permissions.js` — role and table helpers
 - `src/styles.css` — responsive styling
 - `tests/` — unit tests
+
+## Screenshots
+### Dashboard Top
+![Dashboard Top](./public/dashboard-top.png)
+
+### Dashboard Bottom
+![Dashboard Bottom](./public/dashboard-botttom.png)
