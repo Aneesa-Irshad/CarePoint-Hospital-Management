@@ -78,3 +78,7 @@ For accessibility, run Lighthouse in Chrome DevTools on the production preview a
 
 ### CSV Export In Excel 
 ![CSV Export](./public/csv.export.png)
+
+## Demo Video
+
+[Watch CarePoint Hospital Management Demo](https://drive.google.com/file/d/1_80Wne2Yk2x0iCorhn9ypKEMp8Cf3R-x/view?usp=sharing)
